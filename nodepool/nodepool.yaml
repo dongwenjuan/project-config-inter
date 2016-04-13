@@ -67,10 +67,10 @@ providers:
     password: 'admin'
     auth-url: 'http://172.10.0.3:5000/v2.0'
     project-name: 'admin'
-    max-servers: 2
+    max-servers: 5
     networks:
-      - name: admin_internal_net
-        public: False
+    #  - name: admin_internal_net
+    #    public: False
       - name: admin_floating_net
         public: True
     #pool: admin_floating_net
