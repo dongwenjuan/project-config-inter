@@ -72,7 +72,7 @@ providers:
     #  - name: admin_internal_net
     #    public: False
       - name: admin_floating_net
-        public: True
+        public: true
     #pool: admin_floating_net
     images:
       - name: dpc
