@@ -34,7 +34,7 @@ diskimages:
         - vm
         - openstack-repos
         - puppet
-        - nodepool-base
+        - nodepool-base                                                                                                                                                                                                                                                                                                                           
         - node-devstack
       release: trusty
       env-vars:
@@ -55,7 +55,7 @@ providers:
 #    networks:
 #      - net-id: c0d490a3-dc20-4667-9321-96581047423a
 #    pool: admin_floating_net
-#    images:
+#    images:  
 #      - name: dpc
 #        min-ram: 8192
 #        diskimage: dpc
@@ -71,8 +71,8 @@ providers:
     networks:
       - name: admin_internal_net
         #public: true
-    #  - name: admin_floating_net
-    #    public: true
+      - name: admin_floating_net
+        public: true
     pool: admin_floating_net
     images:
       - name: dpc
