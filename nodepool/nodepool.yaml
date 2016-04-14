@@ -70,7 +70,7 @@ providers:
     max-servers: 5
     networks:
       - name: admin_internal_net
-    #    public: true
+        public: true
     #  - name: admin_floating_net
     #    public: true
     pool: admin_floating_net
