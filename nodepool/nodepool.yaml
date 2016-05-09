@@ -71,8 +71,8 @@ providers:
     networks:
       - name: ci-net
         #public: true
-      - name: admin_floating_net
-        public: true
+      #- name: admin_floating_net
+      #  public: true
     pool: admin_floating_net
     images:
       - name: dpc
