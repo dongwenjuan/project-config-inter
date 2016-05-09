@@ -63,13 +63,13 @@ providers:
 #        private-key: '/home/nodepool/.ssh/id_rsa'
   - name: local_01
 #TODO: Update the provider username, password, and authurl
-    username: 'admin'
-    password: 'admin'
-    auth-url: 'http://172.10.0.3:5000/v2.0'
-    project-name: 'admin'
+    username: 'ciuser'
+    password: 'ciuser'
+    auth-url: 'http://172.10.0.5:5000/v2.0'
+    project-name: 'ciuser'
     max-servers: 5
     networks:
-      - name: admin_internal_net
+      - name: ci-net
         #public: true
       - name: admin_floating_net
         public: true
