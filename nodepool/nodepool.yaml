@@ -65,7 +65,7 @@ providers:
 #TODO: Update the provider username, password, and authurl
     username: 'ciuser'
     password: 'ciuser'
-    auth-url: 'http://172.10.0.5:5000/v2.0'
+    auth-url: 'http://172.10.0.11:5000/v2.0'
     project-name: 'ciuser'
     max-servers: 5
     networks:
