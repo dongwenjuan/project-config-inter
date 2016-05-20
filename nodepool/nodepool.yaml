@@ -71,9 +71,9 @@ providers:
     networks:
       - net-id: b06d823d-6840-4029-b625-f25e773d47e0
       #  public: true
-      #- net-id: c96f3dce-d6ac-4c3f-8839-e1087961074f
-      #  public: true
-    pool: admin_floating_net
+      - net-id: c96f3dce-d6ac-4c3f-8839-e1087961074f
+        public: true
+    #pool: admin_floating_net
     images:
       - name: dpc
         min-ram: 8192
